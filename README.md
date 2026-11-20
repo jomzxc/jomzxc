@@ -74,7 +74,14 @@ cloud     gcp · azure · vercel · docker
 
 <br>
 
-### `05` &nbsp;activity
+### `05` &nbsp;recent
+
+<!-- RECENT:START -->
+<!-- RECENT:END -->
+
+<br>
+
+### `06` &nbsp;activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jomzxc/jomzxc/output/snake-dark.svg">

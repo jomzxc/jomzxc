@@ -1,0 +1,62 @@
+name: recent activity
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build recent PRs and commits (public only)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: |
+          set -euo pipefail
+          # strip characters that would break markdown links
+          CLEAN='split("[") | join("(") | split("]") | join(")") | split("|") | join("/") | split("<") | join("") | split(">") | join("")'
+          {
+            echo '<!-- RECENT:START -->'
+            echo '<table><tr><td width="50%" valign="top">'
+            echo
+            echo '**pull requests**'
+            echo
+            gh api -X GET search/issues \
+              -f q="author:$GH_USER type:pr is:public" -f sort=created -f order=desc -f per_page=6 \
+              --jq ".items[] | \"- \`\(if .pull_request.merged_at then \"merged\" elif .state == \"open\" then \"open\" else \"closed\" end)\` [\(.title | $CLEAN)](\(.html_url)) <sub>\(.repository_url | split(\"/\") | .[-2:] | join(\"/\"))</sub>\""
+            echo
+            echo '</td><td width="50%" valign="top">'
+            echo
+            echo '**commits**'
+            echo
+            gh api -X GET search/commits \
+              -f q="author:$GH_USER user:$GH_USER org:tinig-labs -repo:$GH_USER/$GH_USER is:public" -f sort=author-date -f order=desc -f per_page=15 \
+              --jq "[.items[] | select(.commit.message | startswith(\"Merge\") | not)][:6][] | \"- \`\(.sha[0:7])\` [\(.commit.message | split(\"\n\")[0] | .[0:60] | $CLEAN)](\(.html_url)) <sub>\(.repository.full_name)</sub>\""
+            echo
+            echo '</td></tr></table>'
+            echo '<!-- RECENT:END -->'
+          } > "$RUNNER_TEMP/recent.md"
+          python3 - <<'PY'
+          import os, re
+          readme = open("README.md", encoding="utf-8").read()
+          block = open(os.path.join(os.environ["RUNNER_TEMP"], "recent.md"), encoding="utf-8").read().strip()
+          readme = re.sub(r"<!-- RECENT:START -->.*?<!-- RECENT:END -->", lambda _: block, readme, flags=re.S)
+          open("README.md", "w", encoding="utf-8").write(readme)
+          PY
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet README.md; then echo "no change"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: update recent activity [skip ci]"
+          git pull --rebase
+          git push

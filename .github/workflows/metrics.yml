@@ -43,14 +43,6 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # recent commits / PRs / reviews (private repo names hidden)
-          plugin_activity: yes
-          plugin_activity_limit: 6
-          plugin_activity_days: 30
-          plugin_activity_filter: push, pr, review, ref/create, release
-          plugin_activity_visibility: public
-          plugin_activity_timestamps: yes
-
           # PRs merged into other people's repos
           plugin_notable: yes
           plugin_notable_from: all
@@ -60,16 +52,6 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_details: percentage
           plugin_languages_ignored: html, css, jupyter notebook, dockerfile, shell
-
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 30
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: B
 
           # monochrome: greyscale every colour, then set text tone per theme
           extras_css: |
