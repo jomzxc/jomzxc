@@ -21,11 +21,23 @@ jobs:
       matrix:
         include:
           - theme: light
-            text: "#0a0a0a"
-            muted: "#737373"
+            text: "#121417"
+            muted: "#73787F"
+            accent: "#3730E8"
+            c0: "#EEF0F3"
+            c1: "#C9C7FB"
+            c2: "#958FF5"
+            c3: "#5B54EE"
+            c4: "#3730E8"
           - theme: dark
-            text: "#e6e6e6"
-            muted: "#8a8a8a"
+            text: "#FFFFFF"
+            muted: "#8B9098"
+            accent: "#8A85FF"
+            c0: "#1C1F25"
+            c1: "#2E2A7A"
+            c2: "#4A43C4"
+            c3: "#6F69F2"
+            c4: "#A9A5FF"
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -53,9 +65,14 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_ignored: html, css, jupyter notebook, dockerfile, shell
 
-          # monochrome: greyscale every colour, then set text tone per theme
+          # jssabater.online palette: ink text, indigo accents, indigo calendar
           extras_css: |
-            svg, body { filter: grayscale(100%); }
             :root, body, h2, .field, .row, section { color: ${{ matrix.text }} !important; }
             .gray, small, .subtitle { color: ${{ matrix.muted }} !important; }
-            svg .field svg, .field svg { fill: currentColor; }
+            h2 svg, .field > svg { fill: ${{ matrix.accent }} !important; }
+            [fill="#ebedf0"] { fill: ${{ matrix.c0 }} !important; }
+            [fill="#9be9a8"] { fill: ${{ matrix.c1 }} !important; }
+            [fill="#40c463"] { fill: ${{ matrix.c2 }} !important; }
+            [fill="#30a14e"] { fill: ${{ matrix.c3 }} !important; }
+            [fill="#216e39"] { fill: ${{ matrix.c4 }} !important; }
+            .bar, .language { filter: grayscale(100%); }

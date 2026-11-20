@@ -4,35 +4,30 @@
   <img alt="Joms — software engineer, full-stack web and speech AI" src="assets/banner-light.svg" width="100%">
 </picture>
 
-<p align="center">
-  <code>status</code>&nbsp; ● open to full-time roles from dec 2026 · manila / remote
-</p>
-
 <br>
 
-### `01` &nbsp;about
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h01-dark.svg">
+  <img alt="01 About" src="assets/h01-light.svg" height="42">
+</picture>
 
 Hi, I'm **Joms**, a software engineer in Manila building full-stack web apps and speech AI.
 
-- → building **[tinig labs](https://tiniglabs.digital)**: open Filipino speech AI, starting with atypical speech that mainstream models miss
-- → led **Cleft2Speech**: speech practice with IPA-level feedback and voice cloning for people with cleft lip and palate
-- → CS student, graduating Feb 2027
+- building **[tinig labs](https://tiniglabs.digital)**: open Filipino speech AI, starting with atypical speech that mainstream models miss
+- led **Cleft2Speech**: speech practice with IPA-level feedback and voice cloning for people with cleft lip and palate
+- CS student, graduating Feb 2027
 
 <br>
 
-### `02` &nbsp;selected work
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h02-dark.svg">
+  <img alt="02 Projects" src="assets/h02-light.svg" height="42">
+</picture>
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h4><a href="https://github.com/jomzxc/WebDrop">WebDrop</a></h4>
-      Peer-to-peer file sharing in the browser over encrypted WebRTC.
-      <br><br>
-      <code>next.js</code> <code>webrtc</code>
-      <br><br>
-      <a href="https://webdrop.jomszxc.tech">live ↗</a>
-    </td>
-    <td width="33%" valign="top">
+      <sub>01</sub>
       <h4><a href="https://github.com/jomzxc/boardly">Boardly</a></h4>
       A neobrutalist Kanban board with real-time sync.
       <br><br>
@@ -41,6 +36,16 @@ Hi, I'm **Joms**, a software engineer in Manila building full-stack web apps and
       <a href="https://boardly.jomszxc.tech">live ↗</a>
     </td>
     <td width="33%" valign="top">
+      <sub>02</sub>
+      <h4><a href="https://github.com/jomzxc/WebDrop">WebDrop</a></h4>
+      Peer-to-peer file sharing in the browser over encrypted WebRTC.
+      <br><br>
+      <code>next.js</code> <code>webrtc</code>
+      <br><br>
+      <a href="https://webdrop.jomszxc.tech">live ↗</a>
+    </td>
+    <td width="33%" valign="top">
+      <sub>03</sub>
       <h4><a href="https://github.com/jomzxc/Alkansya">Alkansya</a></h4>
       A personal finance and savings tracker.
       <br><br>
@@ -53,7 +58,10 @@ Hi, I'm **Joms**, a software engineer in Manila building full-stack web apps and
 
 <br>
 
-### `03` &nbsp;stack
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h03-dark.svg">
+  <img alt="03 Tech stack" src="assets/h03-light.svg" height="42">
+</picture>
 
 ```
 lang      python · typescript · javascript · java
@@ -64,7 +72,10 @@ cloud     gcp · azure · vercel · docker
 
 <br>
 
-### `04` &nbsp;stats
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h04-dark.svg">
+  <img alt="04 Stats" src="assets/h04-light.svg" height="42">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="metrics-dark.svg">
@@ -74,7 +85,10 @@ cloud     gcp · azure · vercel · docker
 
 <br>
 
-### `05` &nbsp;recent
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h05-dark.svg">
+  <img alt="05 Recent" src="assets/h05-light.svg" height="42">
+</picture>
 
 <!-- RECENT:START -->
 <table><tr><td width="50%" valign="top">
@@ -104,7 +118,10 @@ cloud     gcp · azure · vercel · docker
 
 <br>
 
-### `06` &nbsp;activity
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h06-dark.svg">
+  <img alt="06 Activity" src="assets/h06-light.svg" height="42">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jomzxc/jomzxc/output/snake-dark.svg">
