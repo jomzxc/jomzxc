@@ -95,23 +95,23 @@ cloud     gcp · azure · vercel · docker
 
 **pull requests**
 
-- `open` [Brand refresh: speech corpus logo, redesign and /brand guide](https://github.com/tinig-labs/collect.tiniglabs.digital/pull/2) <sub>tinig-labs/collect.tiniglabs.digital</sub>
-- `open` [Brand refresh: notebook logo, redesign and /brand guide](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/2) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
-- `open` [Brand refresh: new tinig labs logo family, redesign and /brand guide](https://github.com/tinig-labs/tiniglabs.digital/pull/4) <sub>tinig-labs/tiniglabs.digital</sub>
-- `merged` [Fix multi-user security issues and add a staging environment](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/1) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
-- `merged` [Announce the notebook closed beta and add it across the site](https://github.com/tinig-labs/tiniglabs.digital/pull/3) <sub>tinig-labs/tiniglabs.digital</sub>
-- `merged` [Let search engines index the public pages, with correct canonicals](https://github.com/tinig-labs/collect.tiniglabs.digital/pull/1) <sub>tinig-labs/collect.tiniglabs.digital</sub>
+- `merged` [Deploy the Modal phoneme service from CI, with a staging copy](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/5) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
+- `merged` [Use the shared tinig labs footer](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/4) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
+- `merged` [Use the shared tinig labs footer](https://github.com/tinig-labs/collect.tiniglabs.digital/pull/3) <sub>tinig-labs/collect.tiniglabs.digital</sub>
+- `merged` [Share one footer across tinig labs apps](https://github.com/tinig-labs/tiniglabs.digital/pull/5) <sub>tinig-labs/tiniglabs.digital</sub>
+- `merged` [Switch phoneme recognition to ESPnet POWSM-CTC](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/3) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
+- `merged` [Brand refresh: speech corpus logo, redesign and /brand guide](https://github.com/tinig-labs/collect.tiniglabs.digital/pull/2) <sub>tinig-labs/collect.tiniglabs.digital</sub>
 
 </td><td width="50%" valign="top">
 
 **commits**
 
-- `0ade74d` [Add a staging environment](https://github.com/tinig-labs/notebook.tiniglabs.digital/commit/0ade74d6bc34112f737db835a23de33863a8ae4e) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
-- `295061b` [Fix multi-user security issues: shared devices, transcribe c](https://github.com/tinig-labs/notebook.tiniglabs.digital/commit/295061b4d7747e2bbb62337b37c5b9c0ac447edf) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
-- `f33a10d` [Add the organization profile README](https://github.com/tinig-labs/.github/commit/f33a10dda6781e0319754e8a873741ce16521d0c) <sub>tinig-labs/.github</sub>
-- `60c8173` [Use the self-narrated cut of the notebook promo](https://github.com/tinig-labs/tiniglabs.digital/commit/60c81734324de5a34b497263b167f67f2bd56529) <sub>tinig-labs/tiniglabs.digital</sub>
-- `151cdb3` [Announce the notebook closed beta and add it across the site](https://github.com/tinig-labs/tiniglabs.digital/commit/151cdb324cb5c5ee243ebd5280d9c44de39d735d) <sub>tinig-labs/tiniglabs.digital</sub>
-- `e114783` [Add README, CONTRIBUTING and LICENSING in the tinig labs for](https://github.com/tinig-labs/notebook.tiniglabs.digital/commit/e114783e24fec19ddfa4d3c282c533f76b59dc32) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
+- `ab75621` [Give the product marks their own table column](https://github.com/tinig-labs/.github/commit/ab75621e4fa1810cb709b71f616ba63586bc4f1c) <sub>tinig-labs/.github</sub>
+- `87a6060` [Keep product names on one line next to their marks](https://github.com/tinig-labs/.github/commit/87a606052c3b6de2a1a3a107cb75b9fa305d0aae) <sub>tinig-labs/.github</sub>
+- `7d8a9f1` [Update the profile to the new brand](https://github.com/tinig-labs/.github/commit/7d8a9f1e7f5c6a6aa1dad536cecf1c7791b2bac3) <sub>tinig-labs/.github</sub>
+- `c0d5f85` [Deploy the Modal phoneme service from CI, with a staging cop](https://github.com/tinig-labs/notebook.tiniglabs.digital/commit/c0d5f85337ebaf07b07e0eecbcd74f91884c1865) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
+- `4bd298a` [Use the shared tinig labs footer](https://github.com/tinig-labs/notebook.tiniglabs.digital/commit/4bd298a851681c8ae85d60249631134ff2e33285) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
+- `4552a33` [Use the shared tinig labs footer](https://github.com/tinig-labs/collect.tiniglabs.digital/commit/4552a33124555539a465343218023a997f2dfd65) <sub>tinig-labs/collect.tiniglabs.digital</sub>
 
 </td></tr></table>
 <!-- RECENT:END -->
