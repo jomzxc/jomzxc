@@ -95,23 +95,23 @@ cloud     gcp · azure · vercel · docker
 
 **pull requests**
 
+- `merged` [Cut GPU idle time and stop idle tabs from waking the database](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/8) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
+- `merged` [Remove the staging environment](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/7) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
+- `merged` [Let Neon scale to zero: skip the cron's DB query when nothing is queued](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/6) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
 - `merged` [Deploy the Modal phoneme service from CI, with a staging copy](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/5) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
 - `merged` [Use the shared tinig labs footer](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/4) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
 - `merged` [Use the shared tinig labs footer](https://github.com/tinig-labs/collect.tiniglabs.digital/pull/3) <sub>tinig-labs/collect.tiniglabs.digital</sub>
-- `merged` [Share one footer across tinig labs apps](https://github.com/tinig-labs/tiniglabs.digital/pull/5) <sub>tinig-labs/tiniglabs.digital</sub>
-- `merged` [Switch phoneme recognition to ESPnet POWSM-CTC](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/3) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
-- `merged` [Brand refresh: speech corpus logo, redesign and /brand guide](https://github.com/tinig-labs/collect.tiniglabs.digital/pull/2) <sub>tinig-labs/collect.tiniglabs.digital</sub>
 
 </td><td width="50%" valign="top">
 
 **commits**
 
+- `88f5e9e` [Cut GPU idle time and stop idle tabs from waking the databas](https://github.com/tinig-labs/notebook.tiniglabs.digital/commit/88f5e9ea58a4145748f7b106aa282b83b8ba95f4) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
+- `b919069` [Remove the staging environment (#7)](https://github.com/tinig-labs/notebook.tiniglabs.digital/commit/b91906932abc092a6a2d7e15a704015d1cc7ba22) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
+- `34c7e15` [Let Neon scale to zero: skip the cron's DB query when nothin](https://github.com/tinig-labs/notebook.tiniglabs.digital/commit/34c7e1537ee5fbf412cf7fb1c28152a371000bd0) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
 - `ab75621` [Give the product marks their own table column](https://github.com/tinig-labs/.github/commit/ab75621e4fa1810cb709b71f616ba63586bc4f1c) <sub>tinig-labs/.github</sub>
 - `87a6060` [Keep product names on one line next to their marks](https://github.com/tinig-labs/.github/commit/87a606052c3b6de2a1a3a107cb75b9fa305d0aae) <sub>tinig-labs/.github</sub>
 - `7d8a9f1` [Update the profile to the new brand](https://github.com/tinig-labs/.github/commit/7d8a9f1e7f5c6a6aa1dad536cecf1c7791b2bac3) <sub>tinig-labs/.github</sub>
-- `c0d5f85` [Deploy the Modal phoneme service from CI, with a staging cop](https://github.com/tinig-labs/notebook.tiniglabs.digital/commit/c0d5f85337ebaf07b07e0eecbcd74f91884c1865) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
-- `4bd298a` [Use the shared tinig labs footer](https://github.com/tinig-labs/notebook.tiniglabs.digital/commit/4bd298a851681c8ae85d60249631134ff2e33285) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
-- `4552a33` [Use the shared tinig labs footer](https://github.com/tinig-labs/collect.tiniglabs.digital/commit/4552a33124555539a465343218023a997f2dfd65) <sub>tinig-labs/collect.tiniglabs.digital</sub>
 
 </td></tr></table>
 <!-- RECENT:END -->
