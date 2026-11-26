@@ -95,12 +95,12 @@ cloud     gcp · azure · vercel · docker
 
 **pull requests**
 
+- `open` [tl: Add initial support for Tagalog](https://github.com/espeak-ng/espeak-ng/pull/2713) <sub>espeak-ng/espeak-ng</sub>
 - `merged` [Cut GPU idle time and stop idle tabs from waking the database](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/8) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
 - `merged` [Remove the staging environment](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/7) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
 - `merged` [Let Neon scale to zero: skip the cron's DB query when nothing is queued](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/6) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
 - `merged` [Deploy the Modal phoneme service from CI, with a staging copy](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/5) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
 - `merged` [Use the shared tinig labs footer](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/4) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
-- `merged` [Use the shared tinig labs footer](https://github.com/tinig-labs/collect.tiniglabs.digital/pull/3) <sub>tinig-labs/collect.tiniglabs.digital</sub>
 
 </td><td width="50%" valign="top">
 
