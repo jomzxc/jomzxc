@@ -95,23 +95,23 @@ cloud     gcp · azure · vercel · docker
 
 **pull requests**
 
+- `merged` [Label the TORGO transfer charts and stop posts overflowing on phones](https://github.com/tinig-labs/tiniglabs.digital/pull/8) <sub>tinig-labs/tiniglabs.digital</sub>
+- `merged` [Use the full width of wide screens in blog posts](https://github.com/tinig-labs/tiniglabs.digital/pull/7) <sub>tinig-labs/tiniglabs.digital</sub>
+- `merged` [Publish the Zero-shot TORGO research report](https://github.com/tinig-labs/tiniglabs.digital/pull/6) <sub>tinig-labs/tiniglabs.digital</sub>
 - `open` [tl: Add initial support for Tagalog](https://github.com/espeak-ng/espeak-ng/pull/2713) <sub>espeak-ng/espeak-ng</sub>
 - `merged` [Cut GPU idle time and stop idle tabs from waking the database](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/8) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
 - `merged` [Remove the staging environment](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/7) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
-- `merged` [Let Neon scale to zero: skip the cron's DB query when nothing is queued](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/6) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
-- `merged` [Deploy the Modal phoneme service from CI, with a staging copy](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/5) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
-- `merged` [Use the shared tinig labs footer](https://github.com/tinig-labs/notebook.tiniglabs.digital/pull/4) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
 
 </td><td width="50%" valign="top">
 
 **commits**
 
-- `88f5e9e` [Cut GPU idle time and stop idle tabs from waking the databas](https://github.com/tinig-labs/notebook.tiniglabs.digital/commit/88f5e9ea58a4145748f7b106aa282b83b8ba95f4) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
-- `b919069` [Remove the staging environment (#7)](https://github.com/tinig-labs/notebook.tiniglabs.digital/commit/b91906932abc092a6a2d7e15a704015d1cc7ba22) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
-- `34c7e15` [Let Neon scale to zero: skip the cron's DB query when nothin](https://github.com/tinig-labs/notebook.tiniglabs.digital/commit/34c7e1537ee5fbf412cf7fb1c28152a371000bd0) <sub>tinig-labs/notebook.tiniglabs.digital</sub>
-- `ab75621` [Give the product marks their own table column](https://github.com/tinig-labs/.github/commit/ab75621e4fa1810cb709b71f616ba63586bc4f1c) <sub>tinig-labs/.github</sub>
-- `87a6060` [Keep product names on one line next to their marks](https://github.com/tinig-labs/.github/commit/87a606052c3b6de2a1a3a107cb75b9fa305d0aae) <sub>tinig-labs/.github</sub>
-- `7d8a9f1` [Update the profile to the new brand](https://github.com/tinig-labs/.github/commit/7d8a9f1e7f5c6a6aa1dad536cecf1c7791b2bac3) <sub>tinig-labs/.github</sub>
+- `850dfd9` [Label each transfer chart and stop posts overflowing on phon](https://github.com/tinig-labs/tiniglabs.digital/commit/850dfd936649399f2b6a3709688ef9ad00868796) <sub>tinig-labs/tiniglabs.digital</sub>
+- `ca5d131` [Align blog posts with the header width](https://github.com/tinig-labs/tiniglabs.digital/commit/ca5d1313c217953442c56a542530998677ef887f) <sub>tinig-labs/tiniglabs.digital</sub>
+- `b07ece0` [Limit the wide layout to the blog posts](https://github.com/tinig-labs/tiniglabs.digital/commit/b07ece0c84ae3b0747412695f9327b4e621f3598) <sub>tinig-labs/tiniglabs.digital</sub>
+- `ffd0aab` [Use the full width of laptop and desktop screens](https://github.com/tinig-labs/tiniglabs.digital/commit/ffd0aab311e480447ea38ba1d9e3fc81fc9f306b) <sub>tinig-labs/tiniglabs.digital</sub>
+- `cf74322` [Credit the Zero-shot TORGO post to Jommel Rowin Sabater](https://github.com/tinig-labs/tiniglabs.digital/commit/cf743229a582f369e1d8d794112a1661f497b376) <sub>tinig-labs/tiniglabs.digital</sub>
+- `3cba992` [Update the listener's verdict: F03's clone sounds like F03 t](https://github.com/tinig-labs/tiniglabs.digital/commit/3cba9924e476a20000cbcf68d7682c4d6d324ae2) <sub>tinig-labs/tiniglabs.digital</sub>
 
 </td></tr></table>
 <!-- RECENT:END -->
